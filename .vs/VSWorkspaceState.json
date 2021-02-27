@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src\\app",
+    "\\src\\app\\customers",
+    "\\src\\app\\home",
+    "\\src\\app\\iresume"
   ],
   "PreviewInSolutionExplorer": false
 }
