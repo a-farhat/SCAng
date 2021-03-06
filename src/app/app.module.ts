@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { RouterModule, Routes } from '@angular/router';
+//import { RouterModule, Routes } from '@angular/router';
 
 
 //Main App Component
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 
 //Custom Components
 import { IResumeComponent } from './iresume/iresume.component';
-import { AboutComponent } from './About/about.component';
+import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 
 
@@ -25,7 +25,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule
   ],
-  exports: [RouterModule],
+  //exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
